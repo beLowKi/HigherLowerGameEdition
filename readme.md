@@ -20,21 +20,18 @@ Technically, it would be better to use all the depot ids listed in package info-
 
 ### Itch.io
 
-idk I haven't done this yet.
+Not implemented
 
 ## TODO/Possible improvements
 
 - the /api before each endpoint is an unecessary leftover from when the app had an Express landing page and can be removed.
 - endpoint for images relies on static files I downloaded via a script, but they're probably not needed. I'll still probably have a dedicated endpoint for it just so a controller can handle when apps may or may not have a box image, header, and so on.
 
-## Very Important Notes
-
-I do not like frontend development because it makes me feel dumb for things that are usually my fault
 
 ## References
 
-site with static files: https://steam.readthedocs.io/en/stable/
+site with static files: <https://steam.readthedocs.io/en/stable/>
 
-python-steam: https://steam.readthedocs.io/en/stable/
+python-steam: <https://steam.readthedocs.io/en/stable/>
 
-steamdb: https://steamdb.info
+steamdb: <https://steamdb.info>
