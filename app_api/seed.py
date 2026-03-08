@@ -32,9 +32,9 @@ MONGODB_URI = f'mongodb://{MONGO_HOST}'
 DB_NAME = 'higherlower-game'
 
 # Used in non-anon login
-STEAM_USERNAME = 'Ghouligo'
-STEAM_PASSWORD = 'E6av^93ay8Zr'
-STEAM_API_KEY = '22E35A3B4C0A81F721119F0004D57DF5'
+STEAM_USERNAME = ''
+STEAM_PASSWORD = ''
+STEAM_API_KEY = ''
 
 # Manifests with these in their name are ignored when calculating file size.
 DEPOT_MANIFEST_BLACKLIST:set[str] = {'beta', 'alpha', 'test'}
