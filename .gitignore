@@ -60,5 +60,8 @@ typings/
 # next.js build output
 .next
 
+# pyenv-win environment variable
+.python-version
+
 # ignores large 'images' folder
 public/images/
